@@ -3,7 +3,7 @@ from pyforest import LazyImport
 
 # HuggingFace
 datasets = LazyImport("import datasets")
-load_metric = LazyImport("from datasets import load_dataset")
+load_metric = LazyImport("from datasets import load_metric")
 load_dataset = LazyImport("from datasets import load_dataset")
 Dataset = LazyImport("from datasets import Dataset")
 
