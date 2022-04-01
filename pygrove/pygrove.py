@@ -2,7 +2,7 @@ import pyforest
 from pyforest import LazyImport
 
 # HuggingFace
-dataset = LazyImport("import datasets")
+datasets = LazyImport("import datasets")
 load_metric = LazyImport("from datasets import load_dataset")
 load_dataset = LazyImport("from datasets import load_dataset")
 Dataset = LazyImport("from datasets import Dataset")
@@ -18,7 +18,6 @@ AutoModelForTokenClassification = LazyImport("from transformers import AutoModel
 AutoModelForMultipleChoice = LazyImport("from transformers import AutoModelForMultipleChoice")
 AutoModelForQuestionAnswering = LazyImport("from transformers import AutoModelForQuestionAnswering")
 
-
 # Helpers
 ftfy = LazyImport("import ftfy")
 fc = LazyImport("import funcy as fc")
@@ -33,3 +32,4 @@ Counter = LazyImport("from collections import Counter")
 edict = LazyImport("from easydict import EasyDict as edict")
 Xp = LazyImport("from xpflow import Xp")
 millify = LazyImport("from millify import millify")
+
