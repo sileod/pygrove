@@ -19,7 +19,7 @@ Please note that thanks to pyforest, pygrove imports are lazy. Objects do not re
 Here is the list of pygrove imports
 ```python
 # HuggingFace
-dataset = LazyImport("import datasets")
+datasets = LazyImport("import datasets")
 load_metric = LazyImport("from datasets import load_dataset")
 load_dataset = LazyImport("from datasets import load_dataset")
 Dataset = LazyImport("from datasets import Dataset")
@@ -34,7 +34,6 @@ AutoModelForSequenceClassification = LazyImport("from transformers import AutoMo
 AutoModelForTokenClassification = LazyImport("from transformers import AutoModelForTokenClassification")
 AutoModelForMultipleChoice = LazyImport("from transformers import AutoModelForMultipleChoice")
 AutoModelForQuestionAnswering = LazyImport("from transformers import AutoModelForQuestionAnswering")
-
 
 # Helpers
 ftfy = LazyImport("import ftfy")
