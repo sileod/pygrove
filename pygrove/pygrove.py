@@ -6,6 +6,8 @@ datasets = LazyImport("import datasets")
 load_metric = LazyImport("from datasets import load_metric")
 load_dataset = LazyImport("from datasets import load_dataset")
 Dataset = LazyImport("from datasets import Dataset")
+DatasetDict = LazyImport("from io import DatasetDict")
+
 
 transformers = LazyImport("import transformers")
 Trainer = LazyImport("from transformers import Trainer")
@@ -17,12 +19,12 @@ AutoModelForSequenceClassification = LazyImport("from transformers import AutoMo
 AutoModelForTokenClassification = LazyImport("from transformers import AutoModelForTokenClassification")
 AutoModelForMultipleChoice = LazyImport("from transformers import AutoModelForMultipleChoice")
 AutoModelForQuestionAnswering = LazyImport("from transformers import AutoModelForQuestionAnswering")
+AutoModelForMaskedLM = LazyImport("from transformers import AutoModelForMaskedLM ")
 
 # Helpers
 ftfy = LazyImport("import ftfy")
 fc = LazyImport("import funcy as fc")
 warnings = LazyImport("import warnings")
-tqdm = LazyImport("from tqdm.auto import tqdm")
 random = LazyImport("import random")
 itertools = LazyImport("import itertools")
 appdirs = LazyImport("import appdirs")
@@ -33,3 +35,10 @@ edict = LazyImport("from easydict import EasyDict as edict")
 Xp = LazyImport("from xpflow import Xp")
 millify = LazyImport("from millify import millify")
 
+wandb = LazyImport("import wandb")
+StringIO = LazyImport("from io import StringIO")
+dataclass =  LazyImport("dataclasses import dataclass")
+requests = LazyImport("import requests")
+string = LazyImport("string")
+time = LazyImport("time")
+exrex = LazyImport("exrex")
