@@ -6,7 +6,7 @@ datasets = LazyImport("import datasets")
 load_metric = LazyImport("from datasets import load_metric")
 load_dataset = LazyImport("from datasets import load_dataset")
 Dataset = LazyImport("from datasets import Dataset")
-DatasetDict = LazyImport("from io import DatasetDict")
+DatasetDict = LazyImport("from datasets import DatasetDict")
 
 
 transformers = LazyImport("import transformers")
