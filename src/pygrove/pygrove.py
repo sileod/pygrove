@@ -8,7 +8,7 @@ load_dataset = LazyImport("from datasets import load_dataset")
 Dataset = LazyImport("from datasets import Dataset")
 DatasetDict = LazyImport("from datasets import DatasetDict")
 
-
+tn = LazyImport("import tasknet as tn")
 transformers = LazyImport("import transformers")
 Trainer = LazyImport("from transformers import Trainer")
 TrainingArguments = LazyImport("from transformers import TrainingArguments")
